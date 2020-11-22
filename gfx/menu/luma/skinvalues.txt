@@ -16,10 +16,10 @@ ALPHA_DISABLED                0.25
 ALPHA_BEHIND                  0.5
 
 // button
-COLOR_BUTTON_C                '1 1 1'
-COLOR_BUTTON_D                '1 1 1'
-COLOR_BUTTON_F                '1 1 1'
-COLOR_BUTTON_N                '1 1 1'
+COLOR_BUTTON_C                '1 0 0'
+COLOR_BUTTON_D                '1 0 0'
+COLOR_BUTTON_F                '1 0 0'
+COLOR_BUTTON_N                '1 0 0'
 
 // campaign
 ALPHA_CAMPAIGN_CURRENT        1
@@ -32,22 +32,22 @@ COLOR_CAMPAIGN_SELECTABLE     '0.96 0.99 1'
 
 // charmap
 ALPHA_CHARMAP_CHAR            0.85
-COLOR_CHARMAP_CHAR            '1 1 1'
+COLOR_CHARMAP_CHAR            '1 0 0'
 
 // crosshairpicker
 ALPHA_CROSSHAIRPICKER_CROSSHAIR 0.6
-COLOR_CROSSHAIRPICKER_CROSSHAIR '1 1 1'
+COLOR_CROSSHAIRPICKER_CROSSHAIR '1 0 0'
 
 // checkbox
-COLOR_CHECKBOX_C              '1 1 1'
-COLOR_CHECKBOX_D              '1 1 1'
-COLOR_CHECKBOX_F              '1 1 1'
-COLOR_CHECKBOX_N              '1 1 1'
+COLOR_CHECKBOX_C              '1 0 0'
+COLOR_CHECKBOX_D              '1 0 0'
+COLOR_CHECKBOX_F              '1 0 0'
+COLOR_CHECKBOX_N              '1 0 0'
 
 // clearbutton
-COLOR_CLEARBUTTON_C           '1 1 1'
-COLOR_CLEARBUTTON_F           '1 1 1'
-COLOR_CLEARBUTTON_N           '1 1 1'
+COLOR_CLEARBUTTON_C           '1 0 0'
+COLOR_CLEARBUTTON_F           '1 0 0'
+COLOR_CLEARBUTTON_N           '1 0 0'
 OFFSET_CLEARBUTTON            0
 
 // colorpicker
@@ -76,25 +76,25 @@ ALPHA_CVARLIST_SAVED          0.85
 ALPHA_CVARLIST_TEMPORARY      0.55
 
 // dialog color
-COLOR_DIALOG_MULTIPLAYER      '1 1 1'
-COLOR_DIALOG_SETTINGS         '1 1 1'
-COLOR_DIALOG_TEAMSELECT       '1 1 1'
-COLOR_DIALOG_SANDBOXTOOLS     '1 1 1'
-COLOR_DIALOG_QUIT             '1 1 1'
-COLOR_DIALOG_ADVANCED         '1 1 1'
-COLOR_DIALOG_MUTATORS         '1 1 1'
-COLOR_DIALOG_MAPINFO          '1 1 1'
-COLOR_DIALOG_USERBIND         '1 1 1'
-COLOR_DIALOG_SINGLEPLAYER     '1 1 1'
-COLOR_DIALOG_CREDITS          '1 1 1'
-COLOR_DIALOG_WEAPONS          '1 1 1'
-COLOR_DIALOG_VIEW             '1 1 1'
-COLOR_DIALOG_MODEL            '1 1 1'
-COLOR_DIALOG_CROSSHAIR        '1 1 1'
-COLOR_DIALOG_HUD              '1 1 1'
-COLOR_DIALOG_SCREENSHOTVIEWER '1 1 1'
-COLOR_DIALOG_SERVERINFO       '1 1 1'
-COLOR_DIALOG_FIRSTRUN         '1 1 1'
+COLOR_DIALOG_MULTIPLAYER      '1 0 0'
+COLOR_DIALOG_SETTINGS         '1 0 0'
+COLOR_DIALOG_TEAMSELECT       '1 0 0'
+COLOR_DIALOG_SANDBOXTOOLS     '1 0 0'
+COLOR_DIALOG_QUIT             '1 0 0'
+COLOR_DIALOG_ADVANCED         '1 0 0'
+COLOR_DIALOG_MUTATORS         '1 0 0'
+COLOR_DIALOG_MAPINFO          '1 0 0'
+COLOR_DIALOG_USERBIND         '1 0 0'
+COLOR_DIALOG_SINGLEPLAYER     '1 0 0'
+COLOR_DIALOG_CREDITS          '1 0 0'
+COLOR_DIALOG_WEAPONS          '1 0 0'
+COLOR_DIALOG_VIEW             '1 0 0'
+COLOR_DIALOG_MODEL            '1 0 0'
+COLOR_DIALOG_CROSSHAIR        '1 0 0'
+COLOR_DIALOG_HUD              '1 0 0'
+COLOR_DIALOG_SCREENSHOTVIEWER '1 0 0'
+COLOR_DIALOG_SERVERINFO       '1 0 0'
+COLOR_DIALOG_FIRSTRUN         '1 0 0'
 COLOR_DIALOG_CVARS            '1 0.2 0.15'
 COLOR_DIALOG_HUDCONFIRM       '1 0.2 0.15'
 
@@ -108,7 +108,7 @@ MARGIN_COLUMNS                4
 MARGIN_ROWS                   4
 
 // dialog scale transformation centers (NOT the actual positions)
-POSITION_DIALOG_MULTIPLAYER   '0.9 0.4 0'
+POSITION_DIALOG_MULTIPLAYER   '0.5 0.4 0'
 POSITION_DIALOG_SINGLEPLAYER  '0.15 0.4 0'
 POSITION_DIALOG_SETTINGS      '0.5 1 0'
 POSITION_DIALOG_CREDITS       '-0.05 1.2 0'
@@ -130,8 +130,8 @@ HEIGHT_ZOOMEDTITLE            -1
 BOOL_GAMETYPELIST_ICON_BLUR   0
 
 // inputbox
-COLOR_INPUTBOX_F              '1 1 1'
-COLOR_INPUTBOX_N              '1 1 1'
+COLOR_INPUTBOX_F              '1 0 0'
+COLOR_INPUTBOX_N              '1 0 0'
 MARGIN_INPUTBOX_CHARS         1
 
 // keygrabber
@@ -167,10 +167,10 @@ ALPHA_MODELTITLE              0.8
 COLOR_MODELTITLE              '0.96 0.99 1'
 
 // radiobutton
-COLOR_RADIOBUTTON_C           '1 1 1'
-COLOR_RADIOBUTTON_D           '1 1 1'
-COLOR_RADIOBUTTON_F           '1 1 1'
-COLOR_RADIOBUTTON_N           '1 1 1'
+COLOR_RADIOBUTTON_C           '1 0 0'
+COLOR_RADIOBUTTON_D           '1 0 0'
+COLOR_RADIOBUTTON_F           '1 0 0'
+COLOR_RADIOBUTTON_N           '1 0 0'
 
 // serverinfo
 COLOR_SERVERINFO_IP           '0.96 0.99 1'
@@ -193,18 +193,18 @@ COLOR_SKINLIST_AUTHOR         '0.56 0.72 0.86'
 COLOR_SKINLIST_TITLE          '0.96 0.99 1'
 
 // scrollbar
-COLOR_SCROLLBAR_C             '1 1 1'
-COLOR_SCROLLBAR_F             '1 1 1'
-COLOR_SCROLLBAR_N             '1 1 1'
-COLOR_SCROLLBAR_S             '1 1 1'
+COLOR_SCROLLBAR_C             '1 0 0'
+COLOR_SCROLLBAR_F             '1 0 0'
+COLOR_SCROLLBAR_N             '1 0 0'
+COLOR_SCROLLBAR_S             '1 0 0'
 WIDTH_SCROLLBAR               16
 
 // slider
-COLOR_SLIDER_C                '1 1 1'
-COLOR_SLIDER_D                '1 1 1'
-COLOR_SLIDER_F                '1 1 1'
-COLOR_SLIDER_N                '1 1 1'
-COLOR_SLIDER_S                '1 1 1'
+COLOR_SLIDER_C                '1 0 0'
+COLOR_SLIDER_D                '1 0 0'
+COLOR_SLIDER_F                '1 0 0'
+COLOR_SLIDER_N                '1 0 0'
+COLOR_SLIDER_S                '1 0 0'
 WIDTH_SLIDERTEXT              0.333333333333
 
 // tooltip
