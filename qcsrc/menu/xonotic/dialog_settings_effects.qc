@@ -38,28 +38,6 @@ void XonoticEffectsSettingsTab_fill(entity me)
 	effectsApplyButton.disableOnClick = true;
 	float n;
 	me.TR(me);
-		me.TD(me, 1, 1, e = makeXonoticTextLabel(0, _("Quality preset:")));
-		n = 5 + 2 * boolean(cvar("developer") > 0);
-		if(cvar("developer") > 0)
-		{
-			me.TD(me, 1, 5 / n, e = makeXonoticCommandButton(ZCTX(_("PRE^OMG!")), '1 0 1', "exec effects-omg.cfg", 0));
-				e.applyButton = effectsApplyButton;
-		}
-		me.TD(me, 1, 5 / n, e = makeXonoticCommandButton(ZCTX(_("PRE^Low")), '0 0 0', "exec effects-low.cfg", 0));
-			e.applyButton = effectsApplyButton;
-		me.TD(me, 1, 5 / n, e = makeXonoticCommandButton(ZCTX(_("PRE^Medium")), '0 0 0', "exec effects-med.cfg", 0));
-			e.applyButton = effectsApplyButton;
-		me.TD(me, 1, 5 / n, e = makeXonoticCommandButton(ZCTX(_("PRE^Normal")), '0 0 0', "exec effects-normal.cfg", 0));
-			e.applyButton = effectsApplyButton;
-		me.TD(me, 1, 5 / n, e = makeXonoticCommandButton(ZCTX(_("PRE^High")), '0 0 0', "exec effects-high.cfg", 0));
-			e.applyButton = effectsApplyButton;
-		me.TD(me, 1, 5 / n, e = makeXonoticCommandButton(ZCTX(_("PRE^Ultra")), '0 0 0', "exec effects-ultra.cfg", 0));
-			e.applyButton = effectsApplyButton;
-		if(cvar("developer") > 0)
-		{
-			me.TD(me, 1, 5 / n, e = makeXonoticCommandButton(ZCTX(_("PRE^Ultimate")), '0.5 0 0', "exec effects-ultimate.cfg", 0));
-				e.applyButton = effectsApplyButton;
-		}
 
 	me.gotoRC(me, 1.25, 0);
 		me.TD(me, 1, 1, e = makeXonoticTextLabel(0, _("Geometry detail:")));
