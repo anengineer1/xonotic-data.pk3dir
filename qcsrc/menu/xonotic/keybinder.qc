@@ -34,13 +34,11 @@ void KeyBinds_BuildList()
 
 	KEYBIND_HEADER(_("Moving"));
 	KEYBIND_DEF("+forward"                              , _("forward"));
-	KEYBIND_DEF("+back"                                 , _("backpedal"));
+	KEYBIND_DEF("+back"                                 , _("backward"));
 	KEYBIND_DEF("+moveleft"                             , _("strafe left"));
 	KEYBIND_DEF("+moveright"                            , _("strafe right"));
 	KEYBIND_DEF("+jump"                                 , _("jump / swim"));
 	KEYBIND_DEF("+crouch"                               , _("crouch / sink"));
-	KEYBIND_DEF("+hook"                                 , _("off-hand hook"));
-	KEYBIND_DEF("+jetpack"                              , _("jetpack"));
 	KEYBIND_EMPTY_LINE();
 
 	KEYBIND_HEADER(_("Attacking"));
@@ -54,7 +52,7 @@ void KeyBinds_BuildList()
 	KEYBIND_DEF("weaplast"                              , CTX(_("WEAPON^previously used")));
 	KEYBIND_DEF("weapbest"                              , CTX(_("WEAPON^best")));
 	KEYBIND_DEF("reload"                                , _("reload"));
-	KEYBIND_DEF("dropweapon"                            , _("drop weapon / throw nade"));
+	KEYBIND_DEF("dropweapon"                            , _("drop weapon"));
 
 	#define ADD_TO_W_LIST(pred) \
 		FOREACH(Weapons, it != WEP_Null, { \
@@ -81,12 +79,12 @@ void KeyBinds_BuildList()
 	KEYBIND_EMPTY_LINE();
 
 	KEYBIND_HEADER(_("View"));
-	KEYBIND_DEF("+zoom"                                 , _("hold zoom"));
+//	KEYBIND_DEF("+zoom"                                 , _("hold zoom"));
 	KEYBIND_DEF("togglezoom"                            , _("toggle zoom"));
 	KEYBIND_DEF("+showscores"                           , _("show scores"));
 	KEYBIND_DEF("screenshot"                            , _("screen shot"));
-	KEYBIND_DEF("+hud_panel_radar_maximized"            , _("maximize radar"));
-	KEYBIND_DEF("toggle chase_active"                   , _("3rd person view"));
+//	KEYBIND_DEF("+hud_panel_radar_maximized"            , _("maximize radar"));
+//	KEYBIND_DEF("toggle chase_active"                   , _("3rd person view"));
 	KEYBIND_DEF("spec"                                  , _("enter spectator mode"));
 	KEYBIND_EMPTY_LINE();
 
@@ -117,7 +115,7 @@ void KeyBinds_BuildList()
 	KEYBIND_EMPTY_LINE();
 
 	KEYBIND_HEADER(_("Misc"));
-	KEYBIND_DEF("+use"                                  , _("drop key/flag, exit vehicle"));
+//	KEYBIND_DEF("+use"                                  , _("drop key/flag, exit vehicle"));
 	KEYBIND_DEF("kill"                                  , _("suicide / respawn"));
 	KEYBIND_DEF("quickmenu"                             , _("quick menu"));
 	KEYBIND_EMPTY_LINE();
