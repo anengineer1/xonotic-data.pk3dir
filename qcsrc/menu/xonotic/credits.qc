@@ -1,8 +1,8 @@
 #include "credits.qh"
 
 #define CREDITS(TITLE, FUNCTION, PERSON, PERSON_, NL) \
-	TITLE(_("Created by Rocket Jump Zone")) \
-		PERSON(GL HF!) \
+	TITLE(_("CH1MPNOTIC")) \
+		PERSON(Created by Rocket Jump Zone) \
 	NL() \
 	FUNCTION(_("Website")) \
 		PERSON(rocketjump.zone/ch1mpnotic) \
@@ -12,6 +12,7 @@
 	NL() \
 	TITLE(_("Special Thanks to")) \
 		PERSON(The Xonotic Core Team) \
+		PERSON(Draena) \
 	NL() \
 	NL() \
 
