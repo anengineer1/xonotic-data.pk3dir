@@ -39,7 +39,6 @@ void XonoticEffectsSettingsTab_fill(entity me)
 	float n;
 	me.TR(me);
 
-	me.gotoRC(me, 1.25, 0);
 		me.TD(me, 1, 1, e = makeXonoticTextLabel(0, _("Geometry detail:")));
 		me.TD(me, 1, 2, e = makeXonoticTextSlider_T("r_subdivisions_tolerance",
 			_("Change the smoothness of the curves on the map")));
@@ -111,6 +110,7 @@ void XonoticEffectsSettingsTab_fill(entity me)
 				_("Disable textures completely for very slow hardware. This gives a huge performance boost, but looks very ugly.")));
 		}
 	me.TR(me);
+	me.TR(me);
 		me.TD(me, 1, 1, e = makeXonoticCheckBox_T(1, "mod_q3bsp_nolightmaps", _("Use lightmaps"),
 			_("Use high resolution lightmaps, which will look pretty but use up some extra video memory")));
 			e.applyButton = effectsApplyButton;
@@ -166,7 +166,7 @@ void XonoticEffectsSettingsTab_fill(entity me)
 			e.addValue(e, ZCTX(_("DMGFX^All")), "2");
 			e.configureXonoticTextSliderValues(e);
 
-	me.gotoRC(me, 1.25, 3.2); me.setFirstColumn(me, me.currentColumn);
+	me.gotoRC(me, 0, 3.2); me.setFirstColumn(me, me.currentColumn);
 		me.TD(me, 1, 3, e = makeXonoticRadioButton_T(1, "r_coronas", "0", _("No dynamic lighting"),
 			_("Enable corona flares around certain lights")));
 	me.TR(me);
